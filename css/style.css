@@ -21,12 +21,19 @@ img{
   position: relative;
   left:375px;
 }
-
+.image2{
+  position: absolute;
+  top: 675px;
+  left:10px;
+}
 h1{
   margin-left: 300px;
   top: 0;
   width: 1000px;
   font-size: 30px;
+}
+#modul1 {
+  margin-left: 300px;
 }
 h2{
   margin-left: 300px;
