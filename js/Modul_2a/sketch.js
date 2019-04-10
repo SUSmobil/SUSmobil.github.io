@@ -28,7 +28,8 @@ let page;
 let videoPlayed = [false, false, false, false];
 
 function setup() {
-  createCanvas(1400, 750);
+  let cnv = createCanvas(1400, 750);
+  cnv.parent('modul2a');
   videoBefehle();
   button();
   input();
