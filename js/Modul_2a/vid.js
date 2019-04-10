@@ -1,12 +1,12 @@
 function videoBefehle() {
-  videos[0] = createVideo("Videos/Falsche Kalibrierung.mp4");
+  videos[0] = createVideo("vid/Falsche Kalibrierung.mp4");
   videos[0].size(600, 600);
   //videos[0].loop();
 
-  videos[1] = createVideo("Videos/Abrupte T Sprünge Teil1.mp4");
+  videos[1] = createVideo("vid/Abrupte T Sprünge Teil1.mp4");
   videos[1].size(660, 660);
 
-  videos[2] = createVideo("Videos/Abrupte T Sprünge Teil2.mp4");
+  videos[2] = createVideo("vid/Abrupte T Sprünge Teil2.mp4");
   videos[2].size(620, 620);
   //videos[2].showControls();
   minus10 = createButton("-10s");
